@@ -1,6 +1,6 @@
 # STF-LST Dataset : Spatio Temporal Fusion Dataset for Land Surface Temperature Estimation
 
-The <strong>STF-LST Dataset</strong> is a robust foundation for developing and evaluating innovative spatio-temporal fusion techniques, specifically designed to address the challenges of land surface temperature estimation. This dataset includes 51 paired <em>MODIS/Landsat</em> images, each with a resolution of <em>950 x 950</em> pixels. hey were collected between March 18, 2013, and October 15, 2024, and they cover the Orleans Métropole in the Centre-Val de Loire region of France.
+The <strong>STF-LST Dataset</strong> is a robust foundation for developing and evaluating innovative spatio-temporal fusion techniques, specifically designed to address the challenges of land surface temperature estimation. This dataset includes 51 paired <em>MODIS/Landsat</em> images, each with a resolution of <em>950 x 950</em> pixels. They were collected between March 18, 2013, and October 15, 2024, and they cover the Orleans Métropole in the Centre-Val de Loire region of France.
 
 Below is a video showcasing diverse samples from the STF-LST Dataset (click on the picture and download the video) : 
 

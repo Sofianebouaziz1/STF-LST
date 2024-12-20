@@ -18,7 +18,6 @@ To generate the STF-LST dataset, run the following command in your terminal:
 
 ```bash
 python3 run.py
-
-
+```
 The code utilizes the Google Earth Engine platform, so you will need a valid account for authentication before downloading the data.
 Please note that this process may take some time.

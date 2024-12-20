@@ -6,6 +6,12 @@ Below is a video showcasing diverse samples from the STF-LST Dataset (click on t
 
 [![Watch the video](example_sample.png)](.mp4)
 
+[**Features**](#Features)
+| [**Tutorial**](https://github.com/Sofianebouaziz1/FLASH-RL/blob/main/tutorial.ipynb)
+| [**Guide of use**](#Guide-of-use)
+| [**Paper**]()
+| [**ArXiv**]()
+| [**References**](#How-to-cite)
 
 ## Features
 
@@ -36,3 +42,12 @@ STF-LST dataset has been generated using the following versions:
 - Rasterio (v1.3.10).
 - NumPy (v1.26.4).
 - Pandas (V2.2.2).
+
+## Authors 
+
+STF-LST dataset has been developed by Sofiane Bouaziz, Adel Hafiane, Raphaël Canals and Rachid Nedjai.
+
+## How to cite?
+In case you are using STF-LST dataset for your research, please consider citing our work:
+
+

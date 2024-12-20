@@ -4,7 +4,7 @@ The <strong>STF-LST Dataset</strong> is a robust foundation for developing and e
 
 Below is a video showcasing diverse samples from the STF-LST Dataset : 
 
-[![Watch the video](STF-LST_video.mp4)
+[Watch the video](STF-LST_video.mp4)
 
 
 ## Features

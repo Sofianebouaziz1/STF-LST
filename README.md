@@ -4,10 +4,7 @@ The <strong>STF-LST Dataset</strong> is a robust foundation for developing and e
 
 Below is a video showcasing diverse samples from the STF-LST Dataset : 
 
-<video width="640" height="360" controls>
-  <source src="STF-LST_video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Watch the video](STF-LST_video.mp4)
 
 
 ## Features

@@ -13,7 +13,7 @@ class LandsatProcessor:
         - bounds (list): List of coordinates defining the area of interest (AOI) in [xmin, ymin, xmax, ymax] format.
         """
         # Initialize the Earth Engine module
-        # ee.Authenticate()  # Uncomment if authentication is needed
+        ee.Authenticate()  # Uncomment if authentication is needed
         ee.Initialize()
 
         # Define the study area and date range

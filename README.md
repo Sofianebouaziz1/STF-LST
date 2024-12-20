@@ -22,3 +22,15 @@ python3 run.py
 The code utilizes the Google Earth Engine platform, so you will need a valid account for authentication before downloading the data.
 
 Please note that this process may take some time.
+
+
+## Requirements
+STF-LST dataset has been generated using the following versions: 
+- Python (v3.9.19).
+- Torch (v2.4.1+cu121).
+- Scipy (v1.13.1).
+- Earth Engine (v1.1.2).
+- Geemap (v0.34.5).
+- Rasterio (v1.3.10).
+- NumPy (v1.26.4).
+- Pandas (V2.2.2).

@@ -10,7 +10,7 @@ Below is a video showcasing diverse samples from the STF-LST Dataset (click on t
 | [**Tutorial**](https://github.com/Sofianebouaziz1/FLASH-RL/blob/main/tutorial.ipynb)
 | [**Guide of use**](#Guide-of-use)
 | [**Paper**]()
-| [**ArXiv**]()
+| [**ArXiv**](https://arxiv.org/pdf/2412.16631)
 | [**How to cite us ?**](#How-to-cite)
 
 ## Features
@@ -50,4 +50,11 @@ STF-LST dataset has been developed by Sofiane Bouaziz, Adel Hafiane, Raphaël Ca
 ## How to cite?
 In case you are using STF-LST dataset for your research, please consider citing our work:
 
-
+```BibTex
+@article{bouaziz2024deep,
+  title={Deep Learning for Spatio-Temporal Fusion in Land Surface Temperature Estimation: A Comprehensive Survey, Experimental Analysis, and Future Trends},
+  author={Bouaziz, Sofiane and Hafiane, Adel and Canals, Raphael and Nedjai, Rachid},
+  journal={arXiv preprint arXiv:2412.16631},
+  year={2024}
+}
+```

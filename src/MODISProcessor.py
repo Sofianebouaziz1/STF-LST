@@ -22,7 +22,7 @@ class MODISProcessor:
 
     def get_MODIS_collection(self):
         """
-        Get the MODIS LST collection filtered by date and bounds.
+        Get the MODIS Terra LST collection filtered by date and bounds.
         """
         return ee.ImageCollection('MODIS/061/MOD11A1') \
             .filterBounds(self.aoi) \

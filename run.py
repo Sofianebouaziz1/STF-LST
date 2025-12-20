@@ -7,6 +7,7 @@ from src.MODISProcessor import MODISProcessor
 from src.GetPairs import GetPairs
 from src.DataProcessor import DataProcessor
 
+# Process Landsat 8 images: download, filter, interpolate, get LST, and export
 def process_landsat(start_date='2013-03-18', end_date='2024-10-15', roi=[1.767713, 47.760413, 2.109171, 48.013396]):
     landsat_processor = LandsatProcessor(start_date=start_date, end_date=end_date, bounds=roi)
     l8_data = landsat_processor.get_Landsat_collection()
@@ -27,6 +28,7 @@ def process_landsat(start_date='2013-03-18', end_date='2024-10-15', roi=[1.76771
     )
     return l8_times_interpolated
 
+# Process Modis Terra images: download, filter, interpolate, get LST, and export
 def process_modis_with_common_dates(l8_times_interpolated, start_date='2013-03-18', end_date='2024-10-15', roi=[1.767713, 47.760413, 2.109171, 48.013396]):
     print("Processing MODIS data...")
     modis_processor = MODISProcessor(start_date=start_date, end_date=end_date, bounds=roi)
@@ -47,7 +49,7 @@ def process_modis_with_common_dates(l8_times_interpolated, start_date='2013-03-1
         region=modis_processor.aoi
     )
     
-
+# Identify common dates between Landsat and MODIS and save them as a .npy file
 def find_common_dates(l8_times_interpolated, modis_times):
     landsat_dates_only = [date.split('T')[0] for date in l8_times_interpolated]
     modis_dates_only = [date.split(' ')[0] for date in modis_times]
@@ -57,6 +59,7 @@ def find_common_dates(l8_times_interpolated, modis_times):
     np.save('data/commun_dates.npy', common_dates_array)
     return common_dates_array
 
+# Generate paired dataset of MODIS-Landsat images, apply spatial interpolation, and save results
 def generate_pairs_and_interpolate():
     get_pair = GetPairs()
     dates = np.load('data/commun_dates.npy')
@@ -76,6 +79,7 @@ def generate_pairs_and_interpolate():
     get_pair.save_landsat_formatted(landsat_images_filled, dates, out_dir)
     get_pair.save_modis_formatted(modis_images_interpolated, dates, out_dir)
 
+# Main script entry point: parse arguments, process Landsat and MODIS, then generate pairs
 def main():
     # Argument parser to handle optional arguments
     parser = argparse.ArgumentParser(description="Process Landsat and MODIS data.")

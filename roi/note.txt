@@ -1,0 +1,3 @@
+The ROI (Region of Interest) TIFF file in this folder is provided to show the ROI boundaries for visualization only.
+
+It is not used for data processing.

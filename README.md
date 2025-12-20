@@ -4,7 +4,7 @@ The <strong>STF-LST Dataset</strong> is a robust foundation for developing and e
 
 Below is a video showcasing diverse samples from the STF-LST Dataset (click on the picture and download the video) : 
 
-[![Watch the video](example_sample.png)](STF-LST_video.mp4)
+![Video Preview](STF-LST.gif)
 
 [**Features**](#Features)
 | [**Tutorial**](https://github.com/Sofianebouaziz1/FLASH-RL/blob/main/tutorial.ipynb)

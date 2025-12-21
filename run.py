@@ -28,7 +28,7 @@ def process_landsat(start_date='2013-03-18', end_date='2024-10-15', roi=[1.76771
     )
     return l8_times_interpolated
 
-# Process Modis Terra images: download, filter, interpolate, get LST, and export
+# Process Modis Terra images: download, filter, get LST, and export
 def process_modis_with_common_dates(l8_times_interpolated, start_date='2013-03-18', end_date='2024-10-15', roi=[1.767713, 47.760413, 2.109171, 48.013396]):
     print("Processing MODIS data...")
     modis_processor = MODISProcessor(start_date=start_date, end_date=end_date, bounds=roi)

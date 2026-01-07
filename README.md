@@ -16,7 +16,7 @@ The STF-LST dataset is designed for the evaluation of STF methods applied to LST
 
 The dataset consists of 51 MODIS–Landsat LST pairs acquired between April 2013 and October 2024. MODIS provides daily LST observations at coarse spatial resolution (1 km), while Landsat 8 offers finer spatial detail (30 m) with a 16-day revisit cycle. Both sensors have similar mid-morning overpass times, ensuring strong temporal consistency between paired acquisitions.
 
-All images were accessed via Google Earth Engine and include standard atmospheric corrections, emissivity adjustments, and quality masks. Only scenes with acceptable cloud coverage were retained (< 90 % for MODIS, < 80 % for Landsat 8). After gap correction, all images were harmonized to a common spatial resolution of 30 m.
+All images were accessed via Google Earth Engine and include standard atmospheric corrections, emissivity adjustments, and quality masks. Only scenes with acceptable cloud coverage were retained (< 10 % for MODIS, < 20 % for Landsat 8). After gap correction, all images were harmonized to a common spatial resolution of 30 m.
 
 The repository provides:
 * Scripts to reproduce the dataset directly from GEE.

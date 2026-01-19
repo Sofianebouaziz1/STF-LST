@@ -243,10 +243,14 @@ This comprehensive review, alongside the STF-LST dataset, has been developed by 
 In case you are using STF-LST dataset for your research, please consider citing our work:
 
 ```BibTex
-@article{bouaziz2024deep,
-  title={Deep Learning for Spatio-Temporal Fusion in Land Surface Temperature Estimation: A Comprehensive Survey, Experimental Analysis, and Future Trends},
-  author={Bouaziz, Sofiane and Hafiane, Adel and Canals, Raphael and Nedjai, Rachid},
-  journal={arXiv preprint arXiv:2412.16631},
-  year={2024}
+@article{bouaziz2026deep,
+  title={Deep learning for spatio-temporal fusion in land surface temperature estimation: A comprehensive survey, experimental analysis, and future trends},
+  author={Bouaziz, Sofiane and Hafiane, Adel and Canals, Rapha{\"e}l and Nedjai, Rachid},
+  journal={Remote Sensing},
+  volume={18},
+  number={2},
+  pages={289},
+  year={2026},
+  publisher={MDPI}
 }
 ```

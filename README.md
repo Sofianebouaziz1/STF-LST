@@ -2,6 +2,12 @@
 
 This repository provides the necessary scripts to reproduce the MODIS–Landsat Land Surface Temperature (LST) dataset (STF-LST). In addition, it includes a collection of deep learning–based spatio-temporal fusion (STF) models for remote sensing, with particular emphasis on methods that have been applied to or evaluated on LST data.
 
+<div align="center">
+<a href="https://www.mdpi.com/2072-4292/18/2/289" target="_blank">
+  <img src="https://img.shields.io/badge/Paper-Remote%20Sensing%20(MDPI)-2E8B57.svg?logo=mdpi">
+</a>
+</div>
+
 ![Video Preview](assets/STF-LST.gif)
 
 [**Dataset description**](#Dataset-description)
